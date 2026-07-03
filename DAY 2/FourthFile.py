@@ -27,8 +27,8 @@ print(student.values())
 
 pairs =list(student.items())
 print(pairs[2])
-print(student.get("name2")) no error
-print(student["name2"]) error
+# print(student.get("name2")) no error
+# print(student["name2"]) 
 
 print(student)
 new_dic ={
@@ -59,7 +59,6 @@ set2 = {3,2,9}
 print(set1.union(set2))
 print(set1.intersection(set2))
 
-p q
 wordMeanings ={
     "table":["a piece of furniture","list of facts & figures"],
     "cat":"a small animal"
@@ -72,7 +71,6 @@ length =len(subjectList)
 print(length)
 
 subMarks ={}
-chemMarks = )
 mathMarks = float(input("enter marks of math: " ))
 phyMarks = float(input("enter marks of phy: " ))
 subMarks.update({"chem":float(input("enter marks of chem: " )),"maths":mathMarks,"phy":phyMarks})
