@@ -1,6 +1,6 @@
-# def sumOfTwo(x=1,y=2):
-#     sum=x+y
-#     return sum
+def sumOfTwo(x=1,y=2):
+    sum=x+y
+    return sum
 
 print(sumOfTwo())
 def avg(x,y,z):
@@ -20,57 +20,57 @@ def printListE(list):
         print(e, end=" ")
 
 list1=[2,3,4,5,7]
-# printListE(list1)
+printListE(list1)
 
-# def factorialOfN(n):
-#     fact=1
-#     for i in range(1,n+1):
-#         fact = fact*i
-#     return(fact)
+def factorialOfN(n):
+    fact=1
+    for i in range(1,n+1):
+        fact = fact*i
+    return(fact)
 
-# u =factorialOfN(5)
-# print(u)
+u =factorialOfN(5)
+print(u)
 
-# def currencyConvo(curr):
-#     usd = 180
-#     return(curr*usd)
+def currencyConvo(curr):
+    usd = 180
+    return(curr*usd)
 
-# print(currencyConvo(2))
+print(currencyConvo(2))
 
 
-# def checkNum(num):
-#     if(num%2==0):
-#         print("Even")
-#     else:
-#         print("Odd")
+def checkNum(num):
+    if(num%2==0):
+        print("Even")
+    else:
+        print("Odd")
 
-# checkNum(1)
+checkNum(1)
 
-# def show(n):
-#     if(n==0):
-#         return
-#     print(n)
-#     n-=1
-#     show(n)
+def show(n):
+    if(n==0):
+        return
+    print(n)
+    n-=1
+    show(n)
 
-# show(5)
+show(5)
 
-# def factorial(n,s=1):
-#     if (n==0):
-#         print(s)
-#         return
-#     s =s*n
-#     factorial(n-1,s)
+def factorial(n,s=1):
+    if (n==0):
+        print(s)
+        return
+    s =s*n
+    factorial(n-1,s)
         
 
-# factorial(5)
+factorial(5)
 
-# def sumofNum(n):
-#     if(n==0):
-#         return 0
-#     return sumofNum(n-1) + n
+def sumofNum(n):
+    if(n==0):
+        return 0
+    return sumofNum(n-1) + n
 
-# print(sumofNum(2))
+print(sumofNum(2))
 
 
 def printEle(list,i=0):
